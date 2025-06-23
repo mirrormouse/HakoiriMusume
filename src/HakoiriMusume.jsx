@@ -58,7 +58,7 @@ export default function HakoiriMusume({ config = classicConfig }) {
 
   const canPlace = (id, newRow, newCol, list = pieces) => {
     const p = list.find((q) => q.id === id);
-    if (id === goalPiece && (newRow == exit.row || newCol == exit.col)){
+    if (id === goalPiece && (newRow == exit.row && newCol == exit.col)){
       return true;
     }
     if (
