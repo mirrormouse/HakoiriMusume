@@ -8,7 +8,7 @@ function App() {
 const myPuzzle ={
   cols: 6,
   rows: 5,
-  cellSize: 80,
+  cellSize: 60,
   //父母は青色、大番頭と番頭は緑色、祖父母は黄色、その他は白色
   //青色：f9c2d1、緑色：c2d5f9、黄色：f7f3c2、白色：ffffff
   pieces: [
