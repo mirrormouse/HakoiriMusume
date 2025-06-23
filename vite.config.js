@@ -4,6 +4,6 @@ import { ghPages } from "vite-plugin-gh-pages";
 
 // ★ リポジトリ名が公開 URL に入る場合は必ず base を設定
 export default defineConfig({
-  base: "/hakoiri-musume/",     // 例: https://<USER>.github.io/**hakoiri-musume**/
+  base: "/HakoiriMusume/",     // 例: https://<USER>.github.io/**hakoiri-musume**/
   plugins: [react(), ghPages()],
 });
